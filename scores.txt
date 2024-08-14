@@ -1,0 +1,5 @@
+Excellent = 5 Points;
+Good = 4 Points;
+Average = 3 Points;
+Poor = 2 Points;
+Everything else = 1 Point;
