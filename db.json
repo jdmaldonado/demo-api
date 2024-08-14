@@ -3,8 +3,6 @@
     {
       "id": "fdff3761-5fa2-493a-b43a-177c80da7d63",
       "projectName": "Solar Panel Installation",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "not_bad",
         "comment": "Overall performance is satisfactory.",
@@ -14,8 +12,6 @@
     {
       "id": "a1163758-caad-43d1-8578-8ece501493bd",
       "projectName": "Smart Refrigerator",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "good",
         "comment": "Overall performance is satisfactory.",
@@ -25,8 +21,6 @@
     {
       "id": "4636b475-bb44-48a2-904f-048edf946f73",
       "projectName": "Smart Refrigerator",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "good",
         "comment": "Overall performance is satisfactory.",
@@ -42,23 +36,17 @@
     {
       "id": "b9d8be6f-3dac-4b12-b2f4-6a09493b9814",
       "projectName": "Home Security System",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": null
     },
 
     {
       "id": "ed14b61c-0885-450c-bd29-c7eaccfdfd89",
       "projectName": "Solar Panel Installation",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": null
     },
     {
       "id": "a22b1718-8ae5-4cf6-8094-2062f27bd1cc",
       "projectName": "Smart Thermostat",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "good",
         "comment": "Overall performance is satisfactory.",
@@ -68,8 +56,6 @@
     {
       "id": "5404499a-f007-4e6c-a1ea-5fdf9041688d",
       "projectName": "Home Security System",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "not rated",
         "comment": "Overall performance is satisfactory.",
@@ -79,8 +65,6 @@
     {
       "id": "71a7974d-5335-4606-be9b-81b2b16bfe0f",
       "projectName": "Water Filtration System",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "average",
         "comment": "Overall performance is satisfactory.",
@@ -96,8 +80,6 @@
     {
       "id": "6a751bdc-45c5-4d32-abba-22ac3f2df395",
       "projectName": "Automated Garage Door",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "excellent",
         "comment": "Overall performance is satisfactory.",
@@ -107,8 +89,6 @@
     {
       "id": "2ee4cf3a-f618-44e9-bc7d-c89f84eadd93",
       "projectName": "Smart Refrigerator",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "excellent",
         "comment": "Overall performance is satisfactory.",
@@ -118,8 +98,6 @@
     {
       "id": "811ebe93-9970-414b-ba48-200f466dca47",
       "projectName": "Home Security System",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "good",
         "comment": null,
@@ -130,8 +108,6 @@
     {
       "id": "703f3cac-559f-419a-91d1-ab56fa774da1",
       "projectName": "Voice-Controlled Assistant",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "average",
         "comment": null,
@@ -141,8 +117,6 @@
     {
       "id": "9f6690dd-2c55-4b24-80e1-f9c7e28f0642",
       "projectName": "Water Filtration System",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "excellent",
         "comment": "Overall performance is satisfactory.",
@@ -152,15 +126,11 @@
     {
       "id": "404828f1-d50d-4bfb-92b7-43cc6ae380f0",
       "projectName": "Smart Lighting System",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": null
     },
     {
       "id": "3f19956a-1c27-4161-abdd-2bdc4fc66ccb",
       "projectName": "Solar Panel Installation",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "excellent",
         "comment": null,
@@ -170,8 +140,6 @@
     {
       "id": "de56761a-c83e-4815-b329-b7b8bb6eaf26",
       "projectName": "Smart Lighting System",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "average",
         "comment": "Overall performance is satisfactory.",
@@ -181,8 +149,6 @@
     {
       "id": "32d6ff1b-a4db-48db-ae83-fa794f5f4e00",
       "projectName": "Smart Lighting System",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "not rated",
         "comment": null,
@@ -192,8 +158,6 @@
     {
       "id": "fee94c79-1241-4a81-81b7-c6a10119a943",
       "projectName": "Home Security System",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "average",
         "comment": null,
@@ -203,8 +167,6 @@
     {
       "id": "7d73ab5a-6e81-4da3-8d22-477ef86972a4",
       "projectName": "Water Filtration System",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "poor",
         "comment": "Overall performance is satisfactory.",
@@ -214,8 +176,6 @@
     {
       "id": "dc8422c9-80ef-402d-aac5-44a70d2d8e4d",
       "projectName": "Smart Thermostat",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "not rated",
         "comment": "Overall performance is satisfactory.",
@@ -225,22 +185,16 @@
     {
       "id": "d0d5d92a-f66d-4d6a-9fae-ae77ff272acf",
       "projectName": "Home Security System",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": null
     },
     {
       "id": "5149414e-f72f-4c36-b04c-bf6bb34cea68",
       "projectName": "Automated Garage Door",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": null
     },
     {
       "id": "9186b50e-7162-4d4b-abb2-e4b003baa107",
       "projectName": "Smart Thermostat",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "excellent",
         "comment": null,
@@ -251,8 +205,6 @@
     {
       "id": "c1b3f1b4-a7a0-47a7-9f16-fb80789b0b1c",
       "projectName": "Home Security System",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "poor",
         "comment": "Overall performance is satisfactory.",
@@ -262,8 +214,6 @@
     {
       "id": "9970efcd-b11e-4d8e-bce5-763d4f11d146",
       "projectName": "Water Filtration System",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "good",
         "comment": "Overall performance is satisfactory.",
@@ -273,8 +223,6 @@
     {
       "id": "1708ef59-950f-4f66-8acd-8c1f4af503a9",
       "projectName": "Smart Thermostat",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "average",
         "comment": "Overall performance is satisfactory.",
@@ -284,8 +232,6 @@
     {
       "id": "0774cc8f-9cc0-465a-a7c7-46132e5099e0",
       "projectName": "Automated Garage Door",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "excellent",
         "comment": "Overall performance is satisfactory.",
@@ -295,8 +241,6 @@
     {
       "id": "8a81c15f-e4a3-4389-a7c7-8b223229daa5",
       "projectName": "Smart Lighting System",
-      "description": "Review of the installation and performance of the project.",
-      "implemented": true,
       "review": {
         "rating": "excellent",
         "comment": "Overall performance is satisfactory.",
