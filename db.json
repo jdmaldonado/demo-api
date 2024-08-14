@@ -1,14 +1,515 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "reviews": [
+    {
+      "id": "27fb0775-82c5-4930-ba4e-a8f5020ba565",
+      "projectName": "Water Filtration System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "not rated",
+        "comment": "Overall performance is satisfactory.",
+        "author": "John Doe"
+      }
+    },
+    {
+      "id": "4486e5fd-5030-4c64-b37c-6bf8c52b96d8",
+      "projectName": "Smart Refrigerator",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "good",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Emily Davis"
+      }
+    },
+    {
+      "id": "6720896f-31e8-4f1d-bf35-f7662d06f203",
+      "projectName": "Voice-Controlled Assistant",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "excellent",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Jane Smith"
+      }
+    },
+    {
+      "id": "b6cae5dd-648a-4d64-999a-b96bd56aaed9",
+      "projectName": "Water Filtration System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "poor",
+        "comment": null,
+        "author": "Michael Brown"
+      }
+    },
+    {
+      "id": "a611877c-ba3a-419c-a1e2-dad08c475e97",
+      "projectName": "Electric Vehicle Charger",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "poor",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Jane Smith"
+      }
+    },
+    {
+      "id": "fdff3761-5fa2-493a-b43a-177c80da7d63",
+      "projectName": "Solar Panel Installation",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "not_bad",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Emily Davis"
+      }
+    },
+    {
+      "id": "a1163758-caad-43d1-8578-8ece501493bd",
+      "projectName": "Smart Refrigerator",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "good",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Michael Brown"
+      }
+    },
+    {
+      "id": "4636b475-bb44-48a2-904f-048edf946f73",
+      "projectName": "Smart Refrigerator",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "good",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Emily Davis"
+      }
+    },
+    {
+      "id": "68992db7-f616-4c8a-8a20-3b4e5ecd70db",
+      "projectName": "Electric Vehicle Charger",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true
+    },
+    {
+      "id": "b9d8be6f-3dac-4b12-b2f4-6a09493b9814",
+      "projectName": "Home Security System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": null
+    },
+    {
+      "id": "24ab3947-2b5b-47e5-a786-69310443616d",
+      "projectName": "Solar Panel Installation",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "not rated",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Carlos Alvarez"
+      }
+    },
+    {
+      "id": "f26086bf-c18c-4a39-b9a6-9b8147d11c18",
+      "projectName": "Home Security System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "average",
+        "comment": null,
+        "author": "Jane Smith"
+      }
+    },
+    {
+      "id": "9d1effa8-5936-47bd-9cfa-8ac83124606c",
+      "projectName": "Smart Lighting System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "excellent",
+        "comment": null,
+        "author": "Michael Brown"
+      }
+    },
+    {
+      "id": "e97cb625-6b57-4688-9561-f65d56675d61",
+      "projectName": "Smart Refrigerator",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": null
+    },
+    {
+      "id": "ed14b61c-0885-450c-bd29-c7eaccfdfd89",
+      "projectName": "Solar Panel Installation",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": null
+    },
+    {
+      "id": "a22b1718-8ae5-4cf6-8094-2062f27bd1cc",
+      "projectName": "Smart Thermostat",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "good",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Carlos Alvarez"
+      }
+    },
+    {
+      "id": "5404499a-f007-4e6c-a1ea-5fdf9041688d",
+      "projectName": "Home Security System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "not rated",
+        "comment": "Overall performance is satisfactory.",
+        "author": "John Doe"
+      }
+    },
+    {
+      "id": "9544a7ca-23c0-4856-98df-aff2a28af703",
+      "projectName": "Home Theater Setup",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "excellent",
+        "comment": null,
+        "author": "Jane Smith"
+      }
+    },
+    {
+      "id": "618aa8f1-9f8f-4bc7-8155-eb4237f0db91",
+      "projectName": "Home Theater Setup",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true
+    },
+    {
+      "id": "20689b73-ea4a-4591-be9c-7b33e63aeca5",
+      "projectName": "Smart Thermostat",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "average",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Michael Brown"
+      }
+    },
+    {
+      "id": "71a7974d-5335-4606-be9b-81b2b16bfe0f",
+      "projectName": "Water Filtration System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "average",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Emily Davis"
+      }
+    },
+    {
+      "id": "f3cdacfe-9d68-4f6f-a768-e87d2ff9411a",
+      "projectName": "Voice-Controlled Assistant",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true
+    },
+    {
+      "id": "6a751bdc-45c5-4d32-abba-22ac3f2df395",
+      "projectName": "Automated Garage Door",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "excellent",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Emily Davis"
+      }
+    },
+    {
+      "id": "2ee4cf3a-f618-44e9-bc7d-c89f84eadd93",
+      "projectName": "Smart Refrigerator",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "excellent",
+        "comment": "Overall performance is satisfactory.",
+        "author": "John Doe"
+      }
+    },
+    {
+      "id": "811ebe93-9970-414b-ba48-200f466dca47",
+      "projectName": "Home Security System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "good",
+        "comment": null,
+        "author": "Emily Davis"
+      }
+    },
+    {
+      "id": "ff252d90-9ea6-4d3d-b14a-3d49a4edfe47",
+      "projectName": "Smart Lighting System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "poor",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Jane Smith"
+      }
+    },
+    {
+      "id": "772d87b2-3cc4-4f40-bafe-b7708688b933",
+      "projectName": "Voice-Controlled Assistant",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "good",
+        "comment": "Overall performance is satisfactory.",
+        "author": "John Doe"
+      }
+    },
+    {
+      "id": "5d8b1567-deed-4b9b-9665-270d0c860077",
+      "projectName": "Home Theater Setup",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "average",
+        "comment": null,
+        "author": "Emily Davis"
+      }
+    },
+    {
+      "id": "703f3cac-559f-419a-91d1-ab56fa774da1",
+      "projectName": "Voice-Controlled Assistant",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "average",
+        "comment": null,
+        "author": "Carlos Alvarez"
+      }
+    },
+    {
+      "id": "9f6690dd-2c55-4b24-80e1-f9c7e28f0642",
+      "projectName": "Water Filtration System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "excellent",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Emily Davis"
+      }
+    },
+    {
+      "id": "404828f1-d50d-4bfb-92b7-43cc6ae380f0",
+      "projectName": "Smart Lighting System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": null
+    },
+    {
+      "id": "3f19956a-1c27-4161-abdd-2bdc4fc66ccb",
+      "projectName": "Solar Panel Installation",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "excellent",
+        "comment": null,
+        "author": "Carlos Alvarez"
+      }
+    },
+    {
+      "id": "de56761a-c83e-4815-b329-b7b8bb6eaf26",
+      "projectName": "Smart Lighting System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "average",
+        "comment": "Overall performance is satisfactory.",
+        "author": "John Doe"
+      }
+    },
+    {
+      "id": "32d6ff1b-a4db-48db-ae83-fa794f5f4e00",
+      "projectName": "Smart Lighting System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "not rated",
+        "comment": null,
+        "author": "John Doe"
+      }
+    },
+    {
+      "id": "fee94c79-1241-4a81-81b7-c6a10119a943",
+      "projectName": "Home Security System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "average",
+        "comment": null,
+        "author": "Michael Brown"
+      }
+    },
+    {
+      "id": "7d73ab5a-6e81-4da3-8d22-477ef86972a4",
+      "projectName": "Water Filtration System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "poor",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Michael Brown"
+      }
+    },
+    {
+      "id": "dc8422c9-80ef-402d-aac5-44a70d2d8e4d",
+      "projectName": "Smart Thermostat",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "not rated",
+        "comment": "Overall performance is satisfactory.",
+        "author": "John Doe"
+      }
+    },
+    {
+      "id": "d0d5d92a-f66d-4d6a-9fae-ae77ff272acf",
+      "projectName": "Home Security System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": null
+    },
+    {
+      "id": "5149414e-f72f-4c36-b04c-bf6bb34cea68",
+      "projectName": "Automated Garage Door",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": null
+    },
+    {
+      "id": "9186b50e-7162-4d4b-abb2-e4b003baa107",
+      "projectName": "Smart Thermostat",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "excellent",
+        "comment": null,
+        "author": "Jane Smith"
+      }
+    },
+    {
+      "id": "ea67da19-3eec-4828-aaad-04a2de5f521c",
+      "projectName": "Water Filtration System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "poor",
+        "comment": null,
+        "author": "John Doe"
+      }
+    },
+    {
+      "id": "8cfee644-4928-4ae8-9de2-6f3738f5bc21",
+      "projectName": "Water Filtration System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "average",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Michael Brown"
+      }
+    },
+    {
+      "id": "77d1a884-897d-4914-bdc7-b79765451034",
+      "projectName": "Water Filtration System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "good",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Carlos Alvarez"
+      }
+    },
+    {
+      "id": "3522e85b-c70c-4cfa-bf89-f1b83eb20546",
+      "projectName": "Voice-Controlled Assistant",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "poor",
+        "comment": "Overall performance is satisfactory.",
+        "author": "John Doe"
+      }
+    },
+    {
+      "id": "30f3709e-f5f8-49c1-8c17-ff0098291ea0",
+      "projectName": "Home Theater Setup",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "average",
+        "comment": null,
+        "author": "Jane Smith"
+      }
+    },
+    {
+      "id": "c1b3f1b4-a7a0-47a7-9f16-fb80789b0b1c",
+      "projectName": "Home Security System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "poor",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Michael Brown"
+      }
+    },
+    {
+      "id": "9970efcd-b11e-4d8e-bce5-763d4f11d146",
+      "projectName": "Water Filtration System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "good",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Carlos Alvarez"
+      }
+    },
+    {
+      "id": "1708ef59-950f-4f66-8acd-8c1f4af503a9",
+      "projectName": "Smart Thermostat",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "average",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Carlos Alvarez"
+      }
+    },
+    {
+      "id": "0774cc8f-9cc0-465a-a7c7-46132e5099e0",
+      "projectName": "Automated Garage Door",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "excellent",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Michael Brown"
+      }
+    },
+    {
+      "id": "8a81c15f-e4a3-4389-a7c7-8b223229daa5",
+      "projectName": "Smart Lighting System",
+      "description": "Review of the installation and performance of the project.",
+      "implemented": true,
+      "review": {
+        "rating": "excellent",
+        "comment": "Overall performance is satisfactory.",
+        "author": "Emily Davis"
+      }
+    }
+  ]
 }
